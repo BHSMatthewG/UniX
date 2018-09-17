@@ -10,3 +10,11 @@ UniX:Add("TEST", "Hello", "World");
 print(UniX:Encode("TEST", "World") .. " " .. UniX:Decode("TEST", "Hello"));
 --> "Hello World"
 ```
+
+## Setup Chains
+```lua
+local UniX = require("UniX.lua");
+
+UniX:Add("YourChainName", "K01", "a");
+UniX:Add("YourChainName", "K08", "b");
+```
